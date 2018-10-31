@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #333;
+    background-image: url('../img/skyline-7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    padding-left: 3rem;
+}
+.box-container {
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    opacity: 0.9;
+}
+.box {
+    background-color: #d3d3d3;
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    color: #000;
+}
+
+.box h4 {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+    margin: 0.4rem 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+ul li {
+    list-style: none;
+}
+ /* Cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
+.featured, .contact {
+    text-align: center;
+    margin: 25px 0 25px;
+}
+
+.projects {
+    width: 100vw;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 20px 0;
+}
+
+.projects:after {
+    width: 100vw;
+    height: 800px;
+    content: "";
+    background-image: url('../img/code.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.65;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+button {   
+    display: inline-block; 
+    font-weight: 400;
+    padding: 5px 10px; 
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin: 0 10px 10px;
+    border: none;
+    box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.75);
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    display: inline-block;
+    vertical-align: middle;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.info {
+    background-color: #428bca;
+}
+
+.warning {
+    background-color: #d9534f;
+}
+
+.success {
+    background-color: #5cb85c;
+}
+
+.purple {
+    background-color: #6f42c1;
+}
+
+.projects h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    color: #fff; 
+    margin: 10px;
+}
+
+.featured .box-a {
+    order: 1;
+    flex-basis: 100%;
+}
+
+.featured .box-b {
+    order: 2;
+    flex-basis: 100%;
+}
+.box-a, .box-b {
+    background-color: #e3e7ea;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.69);
+    -moz-box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.69);
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.69);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box-a img, .box-b img {
+    max-width: 100%;
+    height: auto;
+}
+.box-a:hover, .box-b:hover {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    display: inline-block;
+    vertical-align: middle;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+        padding: 0 1rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .projects:after {
+        display: none;
+    }
+    .box {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .featured {
+        flex-wrap:nowrap;
+    } 
+     .box-a {
+         flex-basis:200px;
+         order:1;
+     }
+     .box-b {
+         flex-basis:2;
+         order:2;
+     }
+ }
