@@ -135,7 +135,9 @@ button:hover {
 .purple {
     background-color: #6f42c1;
 }
-
+.warning-dark {
+    background-color: #FF8800;
+}
 .projects h2 {
     text-align: center;
     color: #fff;
