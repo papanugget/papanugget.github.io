@@ -3,9 +3,12 @@ html {
     padding: 0;
     margin: 0;
 }
+<<<<<<< HEAD
 header {
     margin-bottom: 20px;
 }
+=======
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #333;
@@ -36,7 +39,11 @@ body {
 }
 .box {
     background-color: #d3d3d3;
+<<<<<<< HEAD
     margin: 5px 0 5px 5px;
+=======
+    margin: 5px;
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
     padding: 10px;
     width: 30%;
     border-radius: 5px;
@@ -47,7 +54,11 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
 h1, h2, h3 {
+=======
+h1, h2, h3, h4 {
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
     font-weight: 400;
     margin: 0.4rem 0;
 }
@@ -58,11 +69,15 @@ h1 {
 
 ul li {
     list-style: none;
+<<<<<<< HEAD
     /* text-align: left; */
 }
  h4 {
      font-weight: bold;
  }
+=======
+}
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
  /* Cursor */
 .txt-type > .txt {
     border-right: 0.2rem solid #777;
@@ -83,7 +98,11 @@ ul li {
 
 .projects:after {
     width: 100vw;
+<<<<<<< HEAD
     height: 700px;
+=======
+    height: 800px;
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
     content: "";
     background-image: url('../img/code.jpg');
     background-attachment: fixed;
@@ -135,9 +154,13 @@ button:hover {
 .purple {
     background-color: #6f42c1;
 }
+<<<<<<< HEAD
 .warning-dark {
     background-color: #FF8800;
 }
+=======
+
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
 .projects h2 {
     text-align: center;
     color: #fff;
@@ -171,7 +194,12 @@ button:hover {
     -webkit-box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.69);
     -moz-box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.69);
     box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.69);
+<<<<<<< HEAD
     margin: 0 0 0 5px;
+=======
+    margin-right: 10px;
+    margin-bottom: 10px;
+>>>>>>> f11f4f5526276e869678946bf8e6df676b5f7904
 }
 
 .box-a img, .box-b img {

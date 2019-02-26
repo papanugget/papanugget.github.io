@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Albert Chan Portfolio Site</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo right"><img src="./img/rocklogo-small.png" alt="Rock Solid Code" class="responsive-img logo-img"></a>
+                <ul class="left">
+                    <li><a href="#who"><i class="material-icons left">account_circle</i> <span class="full">Who</span></a></li>
+                    <li><a href="#featured"><i class="material-icons left">work</i> <span class="full">Featured Work</span></a></li>
+                    <li><a href="#contact"><i class="material-icons left">message</i> <span class="full">Contact</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax header-img" id="who">
+        <div class="img-text">
+            <span class="border trans">Albert Chan</span> 
+        </div>
+    </div>
+    <div class="container">
+        <section class="about">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h1>Creative Front End Developer</h1>
+                    <p>Hi, I'm Al and I'm a front end developer  based in New York City.  I like building responsive websites with cutting edge technology.  I also enjoy BBQ, pugs, and powerlifting.</p>
+                    <p>I have experience with HTML5, CSS3, JavaScript (ES5, ES6, ES7), jQuery, frameworks like: Angular, Ember.JS, React, version control via Git / GitHub, Jasmine TDD, Grunt, Gulp, Yeoman, Bower, Node.js, and Bower. </p>
+                </div>
+                <div class="col s12 m6">
+                    <img src="./img/hardrock.png" alt="Rock Solid Code" class="responsive-img logo-img">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="parallax featured-img" id="featured">
+        <div class="img-text">
+            <span class="border trans">Featured Work</span>
+        </div>
+    </div>
+    <section class="featured-info">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card blue lighten-5">
+                <div class="card-image">
+                    <img src="./img/starwars.png" alt="Star Wars Thumbnail">
+                    <span class="card-title">Star Wars Concept Landing Page</span>
+                </div>
+                <div class="card-content">
+                    <p>A Star Wars landing page I built for fun.</p>
+                </div>
+                <div class="card-action">
+                    <a href="https://papanugget.github.io/star-wars/" target="_blank">See It In Action</a>
+                </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card blue lighten-5">
+                <div class="card-image">
+                    <img src="./img/combine.png" alt="Pulsar Systems Redesign Thumbnail">
+                    <span class="card-title">Pulsar Systems Site Redesign</span>
+                </div>
+                <div class="card-content">
+                    <p>Pulsar Systems Inc. is a technology / IT consultancy firm whose site I redesigned to modern standards.  Uses Bulma CSS, Animate CSS for some animations, FontAwesome Icons,  and some vanilla JS for the image carousel.</p>
+                </div>
+                <div class="card-action">
+                    <a href="https://papanugget.github.io//pulsar-systems/" target="_blank">See It In Action</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card blue lighten-5">
+                <div class="card-image">
+                    <img src="./img/news.jpg" alt="News Headline App Thumbnail">
+                    <span class="card-title">News Headline Checker App</span>
+                </div>
+                <div class="card-content">
+                    <p>Check for the latest 10 headlines from a variety of news sites.  Uses the Axios API, News API, jQuery, and a Bootstrap theme.</p>
+                </div>
+                <div class="card-action">
+                    <a href="https://papanugget.github.io//news-headlines/" target="_blank">See It In Action</a>
+                </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card blue lighten-5">
+                <div class="card-image">
+                    <img src="./img/babytrack.png" alt="Baby Trackr App Thumbnail">
+                    <span class="card-title">Baby Track App</span>
+                </div>
+                <div class="card-content">
+                    <p>A small app I built to track my newborn's I/O.  Uses Materialize CSS, Vanilla JS, and browser local storage</p>
+                </div>
+                <div class="card-action">
+                    <a href="https://papanugget.github.io/baby-track/" target="_blank">See It In Action</a>
+                </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <div class="parallax contact-img" id="contact">
+        <div class="img-text">
+            <span class="border trans">Contact</span>
+        </div>
+    </div>
+    <div class="container">
+        <section class="contact-info">
+            <h4>Find me online:</h4>
+            <a class="waves-effect waves-light indigo darken-1 btn-large social github" href="https://downtothemetal.com/projects/" target="_blank">
+                <i class="material-icons left">desktop_mac</i> WebSite
+            </a>
+            <br>
+            <br>
+            <a class="waves-effect waves-light red darken-1 btn-large social github" href="mailto:albertchan1110@gmail.com">
+                <i class="material-icons left">email</i> Email Me
+            </a>
+            <a class="waves-effect waves-light brown darken-4 btn-large social github" href="https://github.com/papanugget?tab=repositories" target="_blank">
+                <i class="fa fa-github"></i> GitHub Repos
+            </a>
+            <a class="waves-effect waves-light light-blue darken-3 btn-large social linkedin" href="https://www.linkedin.com/in/albertchan01/" target="_blank">
+                <i class="fa fa-linkedin"></i> Connect On LinkedIn
+            </a>
+        </section>
+        <footer>
+            <p>This site was proudly built with <a href="http://materializecss.com/" target="_blank">Materialize CSS.</a> Parallax images courtesy of <a href="https://www.pexels.com/" target="_blank">Pexels.com</a> and <a href="https://unsplash.com/" target="_blank">Unsplash.com.</a>  Rock Solid Logo and other thumbnails were created by me.</p>
+            <p> &copy;2018 Albert Chan</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
