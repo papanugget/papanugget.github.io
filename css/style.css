@@ -277,13 +277,11 @@ textarea {
 
 input[type=text]:focus,
 textarea:focus,
-input[type=submit]:focus,
-a.button:focus {
+.button:focus {
 	outline: 0;
 }
 
-input[type=submit],
-a.button {
+.button {
 	background: transparent;
 	border: 1px solid #1bff80;
 	clear: both;
@@ -301,8 +299,7 @@ a.button {
 	z-index: 10;
 }
 
-input[type=submit]:hover,
-a.button:hover {
+.button:hover {
 	background: #1bff80;
 	color: #383838;
 	opacity: 0.8;

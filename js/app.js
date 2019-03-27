@@ -110,6 +110,5 @@ const openProjects = function() {
             folderIcon.classList.remove('fa-folder-open');
             folderIcon.classList.add('fa-folder');
         }, 350);
-    }
-    
+    }  
 }
