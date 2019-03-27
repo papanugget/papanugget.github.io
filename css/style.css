@@ -278,7 +278,7 @@ textarea {
 input[type=text]:focus,
 textarea:focus,
 .button:focus {
-	outline: 0;
+	outline: .1rem solid;
 }
 
 .button {
