@@ -247,6 +247,7 @@ nav.site ul li {
 .sub-nav dl dt > dd:last-child::after {
 	height: 8px;
 }
+/* form elements */
 label {
 	clear: left;
 	display: block;
@@ -270,17 +271,18 @@ textarea {
 }
 
 textarea {
-	margin-bottom: 20px;
 	overflow: auto;
 	resize: none;
 }
-
 input[type=text]:focus,
 textarea:focus,
 .button:focus {
-	outline: .1rem solid;
+	border-bottom: 1px dashed #1bff80;
 }
-
+#myForm {
+	border: 2px dashed #fff;
+	padding: 15px 30px;
+}
 .button {
 	background: transparent;
 	border: 1px solid #1bff80;
