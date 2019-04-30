@@ -69,7 +69,15 @@ TypeWriter.prototype.type = function() {
 }
 
 // init on DOM load
-document.addEventListener('DOMContentLoaded', init)
+document.addEventListener('DOMContentLoaded', init);
+
+// smooth scroll to contact form
+const contactMe = document.querySelector("#contact-me");
+contactMe.addEventListener('click', () => {
+    document.querySelector('#contact').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
 
 // init func
 function init() {
